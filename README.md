@@ -7,4 +7,9 @@ Django polls Project consists of two sites. First site, it lets people view poll
 ## Download
 You can download Django for create the polls application from [django install](https://www.djangoproject.com/download/)
 
-## Built With
+## Step to build
+- [Django app, part 1](https://docs.djangoproject.com/en/2.2/intro/tutorial01/)
+    - creating a project
+    - run the development server
+    - creating the polls app
+    - write your first view
