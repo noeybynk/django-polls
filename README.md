@@ -1,23 +1,5 @@
 # Django polls
 by Boonyanuch Kaewrakrob
-
-## Django Polls Application
-    This application builds for voting the question polls. There are 3 questions.
-        There are 3 questions.
-        - Are you hungry?
-        - What is your favourite Kpop band?
-        - How are you today?
-
- ## Requirements
-
- The application requires
- * Python 3.6 or newer
- * Django 2.1.2 or newer
- * Python add-on modules as in [requirements.txt](requirements.txt)
-
- ## How to Run
-
-    py manage.py runserver
     
 ## Features
 Django polls Project consists of two sites. First site, it lets people view polls and vote. Second site is an admin site that you can add, change and delete polls.
