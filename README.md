@@ -19,9 +19,9 @@ by Boonyanuch Kaewrakrob
     2. type at terminal > py run manage.py runserver
     3. open Internet and type URL "localhost:8000"
         - if it's "localhost:8000/admin" ; it will show admin page and you can edit in it.
-            - [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
+            - http://127.0.0.1:8000/admin/
         - if it's "localhost:8000/polls/" ; it will show polls page for votes.
-            - [http://127.0.0.1:8000/polls/](http://127.0.0.1:8000/poll/)
+            - http://127.0.0.1:8000/polls/
     
 ## Features
 Django polls Project consists of two sites. First site, it lets people view polls and vote. Second site is an admin site that you can add, change and delete polls.
