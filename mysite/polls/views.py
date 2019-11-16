@@ -6,6 +6,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from .models import Choice, Question
 from django.views import generic
 from django.utils import timezone
+from django.contrib.auth.decorators import login_required
 
 # def index(request):
 #     latest_question_list = Question.objects.order_by('-pub_date')[:5]
@@ -49,6 +50,7 @@ class ResultsView(generic.DetailView):
     model = Question
     template_name = 'polls/results.html'
 
+@login_required
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
